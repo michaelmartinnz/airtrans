@@ -1,0 +1,59 @@
+@import "bootstrap";
+
+img {
+@extend .img-fluid;
+    margin: 0 auto;
+}
+
+.navbar-brand {
+  font-size: inherit;
+}
+
+.column {
+  @extend .col-md-6;
+  @extend .text-xs-center;
+}
+.form {
+  @extend .col-md-6;
+}
+.form-centered {
+  @extend .col-md-6;
+  @extend .text-xs-center;
+}
+.submit {
+  @extend .btn;
+  @extend .btn-primary;
+  @extend .btn-lg;
+}
+
+main {
+  @extend .container;
+  margin-top: 30px;
+}
+
+section {
+  @extend .row;
+  margin-top: 20px;
+}
+
+body {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.42857143;
+  color: #ebebeb;
+    background: #2b3e50;
+  /*background: url('clouds.jpg') #2b3e50 0 0  no-repeat;*/
+  background-size: cover;
+}
+
+
+
+main {
+
+  margin-top: 80px;
+  min-height: 200px;
+}
+
+
+
+
